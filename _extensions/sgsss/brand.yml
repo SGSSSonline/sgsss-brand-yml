@@ -1,3 +1,15 @@
+meta:
+  name:
+    full: Scottish Graduate School of Social Science
+    short: SGSSS
+  link:
+    home: https://www.sgsss.ac.uk/
+    github: https://github.com/SGSSSonline
+    bluesky: https://bsky.app/profile/sgsss.bsky.social
+    sgsss-portal: https://portal.sgsss.ac.uk/
+  description: |
+    The Scottish Graduate School of Social Science is the UK's largest facilitator of funding, training and support for doctoral students in social science. By combining the expertise of sixteen universities across Scotland, the school facilitates world-class PhD research. The school is funded jointly by the Economic and Social Research Council and the Scottish Funding Council.
+
 # minimal brand.yml enabling dark mode
 # replace with your brand colors, logos, and typography!
 color:
