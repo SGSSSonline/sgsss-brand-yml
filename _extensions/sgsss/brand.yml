@@ -10,12 +10,58 @@ meta:
   description: |
     The Scottish Graduate School of Social Science is the UK's largest facilitator of funding, training and support for doctoral students in social science. By combining the expertise of sixteen universities across Scotland, the school facilitates world-class PhD research. The school is funded jointly by the Economic and Social Research Council and the Scottish Funding Council.
 
-# minimal brand.yml enabling dark mode
-# replace with your brand colors, logos, and typography!
+logo:
+  images:
+    solo:
+      path: logos/solologo.png
+      alt: "SGSSS Thistle logo"
+    solo-white:
+      path: logos/solologo-white.png
+      alt: "SGSSS Thistle logo in white"
+    stacked:
+      path: logos/stackedlogo.png
+      alt: "SGSSS logo and name in English and Gaelic"
+  small:
+    light: solo
+    dark: solo-white
+  medium:
+    light: solo
+    dark: solo-white
+  large: stacked
+
 color:
+  palette:
+    white: "#fcfdff" # core
+    grey: "#292a2d" # portal
+    black: "#020101" # wordpress
+    solid-blue: "#073b59" # core
+    solid-purple: "#bd62ab" # core
+    solid-slate: "#4d5c6d" # core
+    solid-green: "#1b9d8e" # core
+    dark-blue: "#2b404f" # core
+    darkest-blue: "#1f2e39" # core
+    pale-green: "#b4dbdc" # core
+    pale-grey: "#edf2f6" # core
+    light-blue: "#B3D7F5" # wp-events
+    light-red: "#F7B2AD" # wp-events
+    light-green: "#B2E2B2" # wp-events
+    light-yellow: "#FFF3B0" # wp-events
+    light-purple: "#D5B3E5" # wp-events
+    light-grey: "#E0E0E0" # wp-events
+
   background:
-    light: "#fff"
-    dark: "#000"
+    light: white
+    dark: grey
   foreground:
-    light: "#000"
-    dark: "#fff"
+    light: black
+    dark: white
+  primary: solid-purple
+  # Unclear which precise Bootstrap / Reveal elements secondary/tertiary affect
+  # need secondary? - 'often used for lighter text or disabled states.'
+  # need tertiary? - 'often used for hoover states, accents, and wells.'
+  success: light-green
+  info: light-blue
+  warning: light-yellow
+  danger: light-red
+  light: white
+  dark: black
