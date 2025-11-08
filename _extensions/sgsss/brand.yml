@@ -109,7 +109,6 @@ defaults:
     functions:
     defaults:
       navbar-bg: $white
-      btn-code-copy-color-active: $sgsss-solid-purple
       code-block-bg: $tertiary
     rules: |
       .instructions {
