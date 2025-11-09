@@ -61,23 +61,3 @@ fibonacci <- function(n) {
 }
 ```
 
-### TODOS and notes
-
-- Despite docs showing defaults>quarto>format as option, looks like none of the key HTML format options work with brand extension at present.
-- Currently unable to set different light/dark navbar colours (see [this GitHub issue](https://github.com/posit-dev/brand-yml/issues/52))
-
-**Quick**: 
-
-- [x] Able to set coding colourscheme via brand?
-  - No. Theme and CSS Quarto default's don't work with brand extension it seems.
-
-**Longer-term**:
-
-- [ ] btn-code-copy-color-active doesn't work when setting 'defaults'.
-  - (Also need to customise it's regular colour.)
-- [ ] Test whether can package scss can load for dark theme to address current limitations
-
-#### Dark theme file
-
-- [ ] Gray-300 gets used for callout border in light *and* dark. Replace in dark with gray-700 or 800
-- [ ] Fix nav bar

@@ -18,6 +18,8 @@ website:
     contents:
       - href: example.qmd
         text: "Example Page"
+      - href: todo_notes.qmd
+      - href: notes.qmd
 
 format:
   html:

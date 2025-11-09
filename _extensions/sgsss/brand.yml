@@ -42,6 +42,10 @@ color:
     sgsss-solid-slate: "#4d5c6d"
     sgsss-solid-teal: "#1b9d8e"
 
+    # Portal grays
+    portal-dark: "#2B2E33"
+    portal-dark-surface: "#42464D"
+
     # Bootstrap colour aliases
     white: sgsss-white
     black: "#020101" # wordpress
@@ -67,7 +71,7 @@ color:
     light-red: "#F7B2AD"
     light-green: "#B2E2B2"
     light-yellow: "#FFF3B0"
-    light-purple: "#D5B3E5"
+    light-purple: "#D4B3E5"
     light-gray: "#E0E0E0"
 
     # code chunks and instruction boxes
@@ -79,7 +83,7 @@ color:
 
   background:
     light: white
-    dark: sgsss-dark-blue
+    dark: portal-dark
   foreground:
     light: black
     dark: white
@@ -89,7 +93,7 @@ color:
   secondary: sgsss-solid-blue
   tertiary:
     light: gray
-    dark: gray-800
+    dark: portal-dark-surface
   success: green
   info: blue
   warning: orange
@@ -146,10 +150,6 @@ defaults:
 
       .navbar-title {
         font-weight: bold;
-      }
-
-      .callout.callout-style-simple .callout-body {
-        margin-top: 0em;
       }
 
       .sidebar-menu-container .menu-text {

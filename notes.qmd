@@ -1,0 +1,16 @@
+---
+title: "Notes"
+---
+
+## Quarto Defaults
+
+Despite docs showing defaults>quarto>format as option, looks like many of the key HTML format options work with brand extension at present.
+
+TOC, for example, results in an empty 'On this page' header. Need to go through checking whether any other defaults can be set or not that would make it possible to slim down the yaml for the NVivo and GenAI webpages.
+
+## Bootstrap Defaults
+
+Currently unable to set different light/dark navbar colours (see [this GitHub issue](https://github.com/posit-dev/brand-yml/issues/52))
+
+Current workaround is setting these via SCSS and using a dark.scss file for dark mode. Should be possible to shrink the dark.scss file to a few lines max. Doesn't appear as if possible at present to bundle it. May also be possible via SCSS rules in the brand file to remove the need for a dark.scss file.
+

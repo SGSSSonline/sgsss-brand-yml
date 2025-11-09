@@ -1,0 +1,81 @@
+---
+title: "TODOs"
+---
+
+## General
+
+**Quick**: 
+
+- [x] ~~Able to set coding colourscheme via brand~~
+  - No. Theme and CSS Quarto default's don't work with brand extension it seems.
+- [ ] Replace green with SGSSS solid-green
+- [ ] Able to set footer defaults? (See [Notes](notes.qmd) on limitations with setting defaults)
+- [ ] Possible within the SCSSS rules to switch full palette for dark model and avoid need for 'dark.scss' file?
+
+**Short-term**:
+
+- [ ] Port over all the additional NVivo Guidance edits
+- [ ] Create 'SGSSS' extended colour palette
+  - [ ] Dark, Solid, Alt, Light, Pale as four core groups
+  - [ ] Calculate new pale range based on SGSSS pale green
+  - [ ] Calculate 'Alt' range - for solid colours that need lightened for dark mode -  based on alt-purple
+- [ ] Abstract out more the colours for border lines etc so not referencing gray-100 etc
+- [ ] New callout themeing - covering different appearance types
+  - [ ] Able to add options to switch between "fill", "header only", and "fill & header"?
+- [ ] Create initial 'guide' page that goes through the key themeing - including the scss for weighting the left/right navbar text etc
+- [ ] Way to get rid of the excess spacing at top of sidebar when not using logo image, search, etc. Been able to remove most of it, but still noticeable gap compared to TOC.
+
+**Medium-term**:
+
+- [ ] Map and extend scss colour palette so can have short scss file for dark mode that simply switches key variable with mapped colours
+  - [ ] Add variants e.g. gray dark mode and SGSSS blue's dark mode
+- [ ] Expand custom divs to have 'heros' etc can use for section index pages etc
+
+**Longer-term**:
+
+- [ ] btn-code-copy-color-active doesn't work when setting 'defaults'.
+  - (Also need to customise it's regular colour.)
+- [ ] Test whether can package scss can load for dark theme to address current limitations
+
+## Dark theme file
+
+- [x] ~~Gray-300 gets used for callout border in light *and* dark. Replace in dark with gray-700 or 800~~
+- [x] ~~Fix nav bar~~
+
+## Logos
+
+- [ ] Confirm whether SVG files for logos exists
+- [ ] Create dark mode full colour version of logo
+- [ ] Hex sticker logo template
+- [ ] Hex sticker logos for NVivo and GenAI pages
+
+## Webpage specific
+
+**NVivo**:
+
+- [ ] Tidy up index.qmd and index.css
+- [ ] Able to package aspects of index.css within the brand extension?
+- [ ] Expand 'About' page to have section acknowledging software + extensions used
+
+**GenAI**:
+
+- [ ] Update with brand extension
+- [ ] Create new index page to match NVivo index
+- [ ] Update footer to match NVivo pages
+- [ ] Expand 'About' page to have section acknowledging software + extensions used
+
+## Coverage
+
+- [x] Basic quarto webpages
+- [ ] Revealjs
+- [ ] Syntax highlighting
+- [ ] PDFs
+- [ ] ggplot
+- [ ] Shiny
+
+**May require separate 'templates' repo**:
+
+- [ ] Word docs
+- [ ] PowerPoint
+
+
