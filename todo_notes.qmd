@@ -31,6 +31,8 @@ title: "TODOs"
 - [ ] Map and extend scss colour palette so can have short scss file for dark mode that simply switches key variable with mapped colours
   - [ ] Add variants e.g. gray dark mode and SGSSS blue's dark mode
 - [ ] Expand custom divs to have 'heros' etc can use for section index pages etc
+- [ ] Update button scss to match SGSS homepage
+- [ ] Create expanded footer matching SGSS homepage can use on index page for webpages
 
 **Longer-term**:
 
