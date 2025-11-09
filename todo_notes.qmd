@@ -57,6 +57,7 @@ title: "TODOs"
 - [ ] Tidy up index.qmd and index.css
 - [ ] Able to package aspects of index.css within the brand extension?
 - [ ] Expand 'About' page to have section acknowledging software + extensions used
+- [ ] Setup ksnip with colour palette and redo screenshots
 
 **GenAI**:
 
