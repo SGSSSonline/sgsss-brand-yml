@@ -11,6 +11,7 @@ title: "TODOs"
 - [ ] Replace green with SGSSS solid-green
 - [ ] Able to set footer defaults? (See [Notes](notes.qmd) on limitations with setting defaults)
 - [ ] Possible within the SCSSS rules to switch full palette for dark model and avoid need for 'dark.scss' file?
+- [ ] Modify the link, active, and hover colours at global-level - currently only change these in specific places
 
 **Short-term**:
 
