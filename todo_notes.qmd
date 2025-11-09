@@ -39,6 +39,8 @@ title: "TODOs"
 - [ ] btn-code-copy-color-active doesn't work when setting 'defaults'.
   - (Also need to customise it's regular colour.)
 - [ ] Test whether can package scss can load for dark theme to address current limitations
+- [ ] Design way and guidance for folk to provide feedback and reusable contributor acknowledgement section
+- [ ] Create improved About page layout that incorporates funding, contributors, additional thanks, software used, etc etc
 
 ## Dark theme file
 
